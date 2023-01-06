@@ -28,7 +28,7 @@ resource "aws_instance" "jenkins-instance" {
 
   associate_public_ip_address = true
   tags = {
-    Name = "Jenkins-Instance"
+    Name = "jenkins-instance"
   }
 }
 
